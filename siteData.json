@@ -968,6 +968,14 @@
       "headingKeywords": {}
     },
     {
+      "src": "contents/tp-progress-team.md",
+      "title": "tP progress dashboard",
+      "headings": {
+        "tp-progress-dashboard": "tP progress dashboard"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "contents/tp-progress.md",
       "title": "tP progress dashboard",
       "headings": {
