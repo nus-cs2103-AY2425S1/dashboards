@@ -1,0 +1,5228 @@
+%%[This page was last updated on ==2024-10-18 @00:23==]%%
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 1. GOH ..REMY `@jemehgoh` (**28**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/37#discussion_r1791031490" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Could a text block be used here instead of a string literal?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/37#discussion_r1791347952" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Okay, LGTM.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/40#discussion_r1791623958" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Consider adding Javadoc header comments to the class and its methods
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/41#discussion_r1792664184" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like how you extracted out the command message as a constant
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/45#discussion_r1793640729" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Could you add spacing for the while loop condition, as per the coding standard?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/45#discussion_r1793643168" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think you could change the method name to getCommand, since the method only parses for one command at a time?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/45#discussion_r1793648204" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Could this additional call to println() be changed to an additional System.lineSeparator in the previous call?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/46#discussion_r1795181849" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this complex expression could be simplified using a formatted string?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/46#discussion_r1795187463" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this long line (at 117 characters) could be wrapped?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/46#discussion_r1796290986" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think the name of this test could be changed to follow the format &lt;feature>_&lt;test scenario>_&lt;expected outcome>, as per the coding standard
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796420629" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think the complicated expression on line 28 could be simplified by calling command.split(" ", 2) in line 26, then assigning description to commandparts[1].trim()?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796426310" expanded>
+<div slot="header">
+
+**12 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job on spacing out the methods!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796428574" expanded>
+<div slot="header">
+
+**13 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think it would be better if the event list was passed in using the existing setData() method, rather than through the constructor?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796429168" expanded>
+<div slot="header">
+
+**14 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think that since this constant is only used within the class, could it be made private?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796436475" expanded>
+<div slot="header">
+
+**15 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this method could be changed to return a string with the entire event list, rather than printing it out directly?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796437338" expanded>
+<div slot="header">
+
+**16 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Following on from the comment made at getList(), I think the result from that method could be concatenated with the add message, then the resulting string passed as the output message of the CommandOutput object?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796965949" expanded>
+<div slot="header">
+
+**17 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+If that's the case, then I think it can be left as is.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/48#discussion_r1797011520" expanded>
+<div slot="header">
+
+**18 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this redundant comment can be removed?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/48#discussion_r1797012994" expanded>
+<div slot="header">
+
+**19 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this commented-out line can be removed if it is not necessary?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/48#discussion_r1797014845" expanded>
+<div slot="header">
+
+**20 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think these public constants, if not used outside the class, can be made private?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/48#discussion_r1797016034" expanded>
+<div slot="header">
+
+**21 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think Javadoc header comments could be added for these public methods?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/53#discussion_r1797706046" expanded>
+<div slot="header">
+
+**22 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think these two constants could be named "ADD_EVENT_MESSAGE" and "ADD_PARTICIPANT_MESSAGE" to make their purpose clearer?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/53#discussion_r1797706242" expanded>
+<div slot="header">
+
+**23 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this "break" statement could be changed to "return" to make it clear that the method is being exited from?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/53#discussion_r1797706341" expanded>
+<div slot="header">
+
+**24 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like your Javadoc header for this method!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/54#discussion_r1797708726" expanded>
+<div slot="header">
+
+**25 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like how you named your methods here!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/54#discussion_r1797708895" expanded>
+<div slot="header">
+
+**26 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like how you named your unit tests.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/57#discussion_r1798963094" expanded>
+<div slot="header">
+
+**27 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think you can add a Javadoc header for this class?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/58#discussion_r1798967315" expanded>
+<div slot="header">
+
+**28 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job writing the Javadoc header for this method!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 2. LEE .. ZHE `@ehz0ah` (**26**<small><small>+8</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/1#discussion_r1775627920" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Bad code. Rejected.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/14#discussion_r1783832502" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Looks good!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/12#discussion_r1783836052" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice code!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/14#discussion_r1783836585" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job merging conflicts!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/14#discussion_r1783837736" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+GOOD JOB!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784501735" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Verified camelCase changes.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784517336" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+It seems like GPA and ID are in all caps. Following the Java conventional standard, do you think they should be in lower case instead?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784520810" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+As much as possible, let's use prefixes such as is, has, was, etc. for boolean variable/method names so that they sound like booleans and linters can automatically verify that style rules are being followed. 👍
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784522247" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Likewise for naming of boolean methods as mentioned above.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784525041" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784542938" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Considering that we are using HashMap for this project, do you think it might be beneficial to avoid initializing a Map variable so that we can reduce the need for additional imports?
+```suggestion
+    private static final HashMap<Integer, University> universityMap = new HashMap<>();
+```
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784715887" expanded>
+<div slot="header">
+
+**12 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Since gpa is going to be a precise decimal value that goes up to 2 decimal points, would it be better if we replace `float` to `BigDecimal`? This will reduce the potential bugs that may occur when we are doing our comparison of gpas in our algorithm.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784734467" expanded>
+<div slot="header">
+
+**13 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I saw this in the website under Week 2 on Java: Data Types and thought maybe it's a good point to bring up.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/30#discussion_r1787318903" expanded>
+<div slot="header">
+
+**14 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Beautiful!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/30#discussion_r1787320204" expanded>
+<div slot="header">
+
+**15 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice refactoring making a student out from the long line of code!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/30#discussion_r1787324126" expanded>
+<div slot="header">
+
+**16 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good use of Enum.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/30#discussion_r1787331761" expanded>
+<div slot="header">
+
+**17 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good catch! 😂
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/30#discussion_r1787339934" expanded>
+<div slot="header">
+
+**18 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good use of streams! Maybe we can add in features that run parallel in the future. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798180907" expanded>
+<div slot="header">
+
+**19 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Consider extracting the RegEx pattern into a static variable so that it's intuitive for others.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798181347" expanded>
+<div slot="header">
+
+**20 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Likewise for the student ID pattern.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798182074" expanded>
+<div slot="header">
+
+**21 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Likewise for checking GPA.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798185353" expanded>
+<div slot="header">
+
+**22 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Refactor out the RegEx pattern for student ID to avoid magic literals.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798187396" expanded>
+<div slot="header">
+
+**23 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Edge cases should be handled at the start of the function.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798194014" expanded>
+<div slot="header">
+
+**24 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+There are multiple instances where you make consecutive function calls in 1 line. You can consider refactoring it into a variable to make it less cluttered.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/49#discussion_r1801133881" expanded>
+<div slot="header">
+
+**25 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Using `unitBeingTested_descriptionOfTestInputs_expectedOutcome` format, no need to add `Test` to the name.
+```suggestion
+    public void makeStudent_invalidAddOrder_exceptionThrown() ``{``
+```
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/49#discussion_r1801135187" expanded>
+<div slot="header">
+
+**26 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+It seems like you are following `unitBeingTested_descriptionOfTestInputs_expectedOutcome` format from other test cases. This one seems to be missing expectedOutcome.
+```suggestion
+    public void makeStudent_idWithSpaces_studentCreated() ``{``
+```
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/26#discussion_r1786265663" expanded>
+<div slot="header">
+
+**27 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Do you guys mean an enum?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/37#discussion_r1795704862" expanded>
+<div slot="header">
+
+**28 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Thanks!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/5#issuecomment-2378657806" expanded>
+<div slot="header">
+
+**29 :octicon-comment:** %%(other comment)%%
+</div>
+
+Alright, I’ve updated everyone’s permission levels. You should now have the ability to assign assignees to issues.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/7#issuecomment-2379597242" expanded>
+<div slot="header">
+
+**30 :octicon-comment:** %%(other comment)%%
+</div>
+
+Excited to see your implementation!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/4#issuecomment-2380851257" expanded>
+<div slot="header">
+
+**31 :octicon-comment:** %%(other comment)%%
+</div>
+
+MVP features identified and workflow established.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/30#issuecomment-2393115711" expanded>
+<div slot="header">
+
+**32 :octicon-comment:** %%(other comment)%%
+</div>
+
+Remember to add the appropriate labels, etc. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/38#issuecomment-2405654217" expanded>
+<div slot="header">
+
+**33 :octicon-comment:** %%(other comment)%%
+</div>
+
+Test thus far:
+- I commented out the line `System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8))` from Ui.java
+- First 2 updates to the gradle.yml file still did not manage to get CI checks to pass
+- Last update: I updated the .yml file to ensure that the correct encoding environment is passed to Windows when running the tests and all checks are passing.
+- Further tests/confirmation required.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/38#issuecomment-2405681161" expanded>
+<div slot="header">
+
+**34 :octicon-comment:** %%(other comment)%%
+</div>
+
+- After tidying up the gradle.yml file, the CI checks seem to be doing well. 
+- Need final confirmation on whether the source code run fine without `System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8))`. 
+- On my end, when I extract the .jar file to a new folder and run it in terminal, the printing seems fine
+- When I run it in Intellij, the printing of table is filled with `?` (Is there any config (VM options?) that was previously changed and need to revert back now?)
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 3. ZHAN..JIAN `@yijiano` (**23**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/46#discussion_r1796773154" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think that it's good that we reduce the number of parameters here, will have to modify my implementation of Ui and Parser to match this change, but looks good!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/46#discussion_r1796774064" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Should the predicate (condition) here be abstracted out so that its more readable?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/49#discussion_r1797717256" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good work here, clean and concise code. Maybe you can add JavaDocs next time.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/49#discussion_r1797717407" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good work on the JUnit test implementation for ListItems!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/58#discussion_r1798459445" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good change here, overlooked that the negation here might make more sense.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/58#discussion_r1798459568" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Thanks for adding more exceptions here.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/58#discussion_r1798460024" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like how this is abstracted out to another method.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/58#discussion_r1798469501" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Thanks for fixing code style.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/65#discussion_r1799339294" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this blank space can be removed in future iterations
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/64#discussion_r1799341334" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I appreciate the decision to abstract out the print implementation, makes out code more readable.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/64#discussion_r1799342426" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Thanks for including the verbose parameter. Small nit would be to move the description of the command parameters to only show when verbose is true, but I don't think it matters that much.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/67#discussion_r1799613967" expanded>
+<div slot="header">
+
+**12 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good that the logging is done in a clear way.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/68#discussion_r1799740679" expanded>
+<div slot="header">
+
+**13 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good that you added new exceptions types.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/68#discussion_r1799741289" expanded>
+<div slot="header">
+
+**14 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice job using operator overriding
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/68#discussion_r1799741524" expanded>
+<div slot="header">
+
+**15 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This is much more readable
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/68#discussion_r1799742041" expanded>
+<div slot="header">
+
+**16 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice job adding JUnit tests
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/75#discussion_r1799914369" expanded>
+<div slot="header">
+
+**17 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job on making the verbose flag more clean
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/76#discussion_r1800517173" expanded>
+<div slot="header">
+
+**18 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I love the incorrect correct use of assertions.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/96#discussion_r1803623336" expanded>
+<div slot="header">
+
+**19 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+To be honest I am not very sure about this change here, but the fact that the verbose output exists means that this is probably fine.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/96#discussion_r1803623971" expanded>
+<div slot="header">
+
+**20 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job abstracting it out!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/96#discussion_r1803624774" expanded>
+<div slot="header">
+
+**21 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I would tell you to make this more readable but I have no idea where to start so I will leave this bomb wrapped up nicely for the next person who discovers this.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/96#discussion_r1803625537" expanded>
+<div slot="header">
+
+**22 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Also, should this be private?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/96#discussion_r1803626399" expanded>
+<div slot="header">
+
+**23 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice clean method. This is probably the only one which the rest of us will use.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/63#issuecomment-2410424792" expanded>
+<div slot="header">
+
+**24 :octicon-comment:** %%(other comment)%%
+</div>
+
+WIP, please don't review yet
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/issues/61#issuecomment-2413001775" expanded>
+<div slot="header">
+
+**25 :octicon-comment:** %%(other comment)%%
+</div>
+
+Done
+
+https://github.com/AY2425S1-CS2113-W14-4/tp/releases/tag/v1.0
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/issues/83#issuecomment-2417197817" expanded>
+<div slot="header">
+
+**26 :octicon-comment:** %%(other comment)%%
+</div>
+
+Extended description into a separate issue
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 4. LOW ..ERLY `@Bev-low` (**17**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/31#discussion_r1795365415" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+this looks okay to me, I was a bit confised by the class names but understand
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/31#discussion_r1795377358" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+look good
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/31#discussion_r1795378590" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+this can replace with our exception class in the future
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/31#discussion_r1795389801" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+feel like the -1 here can be misunderstanding
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/31#discussion_r1795389962" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+when im reading the code
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/31#discussion_r1795390188" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+but i get what it does
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/31#discussion_r1795395156" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+okay all LGTM
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/32#discussion_r1795471982" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+looks okay to me
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/32#discussion_r1795472580" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This file was deleted. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/44#discussion_r1798426743" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+nice ya, this reads better
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/48#discussion_r1798465727" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I added extra DataWrapper Class
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/45#discussion_r1798726163" expanded>
+<div slot="header">
+
+**12 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+yup looks good
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/45#discussion_r1798733358" expanded>
+<div slot="header">
+
+**13 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Can i clarify what is this for. what is this differnet from EditExercises
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/45#discussion_r1798733449" expanded>
+<div slot="header">
+
+**14 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+looks good
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/46#discussion_r1798734916" expanded>
+<div slot="header">
+
+**15 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Looks good to me
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/49#discussion_r1800496324" expanded>
+<div slot="header">
+
+**16 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Imma need to reread this again but I make sense
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/51#discussion_r1801224296" expanded>
+<div slot="header">
+
+**17 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+can just leave this as blank? 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/23#discussion_r1798704980" expanded>
+<div slot="header">
+
+**18 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+okay 
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/issues/47#issuecomment-2409913455" expanded>
+<div slot="header">
+
+**19 :octicon-comment:** %%(other comment)%%
+</div>
+
+Yay done 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 5. SAW ..SAAC `@isaacsaw25` (**14**<small><small>+9</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/14#discussion_r1783838486" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Outstanding work brother
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/16#discussion_r1783840949" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Excellent code!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/15#discussion_r1783906857" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Great code! 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784059468" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+`spotsLeft` should be in camelCase 😅
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784060014" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+camelCase
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784060317" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+camelCase 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784061285" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Great work in generating the university map! 😁
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1785552086" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+That's a great point! We should indeed make use of `BigDecimal`
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/22#discussion_r1785613851" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good catch!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/22#discussion_r1785614253" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Great code!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/26#discussion_r1786219701" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This is valid, accessing the university attributes may be more intuitive in this manner. 🥇 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/32#discussion_r1788608532" expanded>
+<div slot="header">
+
+**12 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Wow! I learnt something new today 👍 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/32#discussion_r1788609130" expanded>
+<div slot="header">
+
+**13 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I'm curious, does the code still work after removing this `static` keyword?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1797955333" expanded>
+<div slot="header">
+
+**14 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Interesting use of `HashSet` as a `Set` to hold the exception messages
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/1#discussion_r1775630036" expanded>
+<div slot="header">
+
+**15 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+I am trying my best, 보스님 . 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/1#discussion_r1775648790" expanded>
+<div slot="header">
+
+**16 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+test
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/2#issuecomment-2374680766" expanded>
+<div slot="header">
+
+**17 :octicon-comment:** %%(other comment)%%
+</div>
+
+넵
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/7#issuecomment-2380565929" expanded>
+<div slot="header">
+
+**18 :octicon-comment:** %%(other comment)%%
+</div>
+
+> Excited to see your implementation!
+
+![](https://media.tenor.com/TMhnW8cH10gAAAAe/war-meme.png)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/14#issuecomment-2387625513" expanded>
+<div slot="header">
+
+**19 :octicon-comment:** %%(other comment)%%
+</div>
+
+help
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/24#issuecomment-2391344240" expanded>
+<div slot="header">
+
+**20 :octicon-comment:** %%(other comment)%%
+</div>
+
+I was also thinking of overloading the comparison operators in the `Student` class, so that we can directly compare `Student` objects. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/33#issuecomment-2395418217" expanded>
+<div slot="header">
+
+**21 :octicon-comment:** %%(other comment)%%
+</div>
+
+> java -Dfile.encoding=UTF-8 -jar yourapp.jar
+
+I've tried running this command, unfortunately ran into an error :(
+'Error: Could not find or load main class .encoding=UTF-8
+Caused by: java.lang.ClassNotFoundException: /encoding=UTF-8'
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/33#issuecomment-2395437959" expanded>
+<div slot="header">
+
+**22 :octicon-comment:** %%(other comment)%%
+</div>
+
+I can't fix this bug, we probably have to make the user 
+
+1. get out of the app using `exit`
+2. run `chcp 65001` to change to UTF-8 encoding
+3. run `java -jar FindOurSEP.jar` to get back in
+
+This should probably be done at a later stage when we implement file reading and storage systems, so that the user does not lose their data when relogging into the application.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/45#issuecomment-2410780810" expanded>
+<div slot="header">
+
+**23 :octicon-comment:** %%(other comment)%%
+</div>
+
+Fixing failing tests
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 6. TAN .. HUI `@Ridiculouswifi` (**14**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/1#discussion_r1780972310" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Can you declare this line first, all static variables need to be declared before instance variables
+
+Refer to "Classes and Interfaces" in this link:
+https://se-education.org/guides/conventions/java/index.html
+
+
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/1#discussion_r1780973146" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think you can break up lines 18 and 19, they are more than 120 characters long
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/28#discussion_r1788764502" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Toby I think the naming of sortedList can be changed, something like sortedInternships might be more appropriate.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/28#discussion_r1788768854" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+To keep a note, might need to change this printing method in the future
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/33#discussion_r1789907121" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think it would be good to define a constant to explain the use of 1 as the index parameter
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/33#discussion_r1789908890" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Thanks for the change, I think this is clearer
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/33#discussion_r1789911744" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think the older version is better, it allows for better visualization of the output. Unless I have missed out a coding standard that should be followed.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/33#discussion_r1789915355" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think the comments can be shifted to a previous line. If i'm not wrong there was a standard that comments should be in-line with code.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/33#discussion_r1790049043" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This is completely optional, but i think defining &lt;code>fieldGetters&lt;/code> can be done outside of the &lt;code>execute&lt;/code> function, should make the function more readable. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/49#discussion_r1800771388" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps can opt to terminate the loop once the invalid role or company is detected? Can try using exceptions
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/49#discussion_r1800772448" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good change!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/49#discussion_r1800777236" expanded>
+<div slot="header">
+
+**12 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps have a separate function for printing the exact message when a addCommand fails, this function is meant for other commands too
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/56#discussion_r1802751774" expanded>
+<div slot="header">
+
+**13 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good edit!
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/56#discussion_r1802752714" expanded>
+<div slot="header">
+
+**14 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This seems like it would work, good job!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/31#discussion_r1789389085" expanded>
+<div slot="header">
+
+**15 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Sure, I understand what you mean, please go ahead.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 7. CHEN..ANDY `@averageandyyy` (**12**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789318785" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps this could be changed to `getSize` to better differentiate between this method and the underlying `size` method of the list!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789319708" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Consider parking output related functionalities in `Ui`? Perhaps pass the `AuthorList` as a parameter to a method in `Ui`? 
+
+Edit: Saw my suggestion being included under `Ui`! But maybe keep all `sout` related methods in `Ui`? To be discussed further!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789320338" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice! Possible to streamline this even further by having a `getAuthorName` at the `AuthorList` level?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789320682" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Love the change! Greatly improves clarity on what the method is supposed to do just from the name change :)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789322166" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Looks great! Will also look into adding some JUnit tests of my own!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789830317" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Yes, that's right.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1795705574" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+If I recall correctly, we are moving away from any sort of prompting of the user. We assume that the user is intentional in his commands. This was established during our last team meeting with Prof Akshay. Perhaps @sarahchow03 or @xenthm could confirm this?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1795712370" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps the checking of equivalent deadlines might not be necessary? I am concerned about potentially being able to add duplicate mangas from the command line since two `Manga`s are considered different if they have different deadlines. Testing is needed to confirm this.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1797625587" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+For future improvement: maybe we can create a `setDeadline(Manga manga, Deadline deadline)` method.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1797625942" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think as per the previous comment on the `equals` method, we can leave out the `deadline` during comparison.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1797626009" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+For future consideration: move `print` related functionalities in `Ui`.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1797628014" expanded>
+<div slot="header">
+
+**12 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps it isn't necessary for the actual deadline to be explicitly mentioned when we want to delete a deadline. A change in the `validateArguments` might be needed for this. So ideally, a command to delete a deadline would look like `delete -a "Akutami" -m "Kaisen" -d`.
+
+Edit: This is just me thinking about implementation details, but a suggestion I have about implementing this is in the `DELETE` switch case we update the options for `-d` to not require an argument and add a `isDelete` flag in `validateArguments` to bypass the check for a quoted argument following `-d`. Might not be the cleanest implementation. To be further discussed!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 8. HUYN..LINH `@DanLinhHuynh-Niwashi` (**11**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/56#discussion_r1800926466" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Try not to do this. Instead you may import each command separatedly (checkstyle error)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/56#discussion_r1800931391" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+You may try to cut off the line a little bit as the line is long
+E.g.:
+protected Transaction createTransaction
+(double amount, String description, String date, Category category) throws Exception ``{``
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/56#discussion_r1800932836" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Instead of System.out.println, you may try use logger to not break the UI flow
+You may check this to know how to log: https://nus-cs2113-ay2425s1.github.io/website/schedule/week9/topics.html#w9-2-logging
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/57#discussion_r1800965786" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+You may try to use logging instead of printing
+https://nus-cs2113-ay2425s1.github.io/website/schedule/week9/topics.html#w9-2-logging
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/51#discussion_r1800986608" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+As per our user guide, only the extra arguments need to be put in [ ]
+You may try to change the guide to: "add-expense [DESCRIPTION] a/ AMOUNT [d/ DATE] [c/ CATEGORY]"
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/34#discussion_r1800990371" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+A J-unit test should be created corresponding to the class which need to be tested. You may try to navigate to the class > right click > add test... to add a test for the class
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/34#discussion_r1800991627" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+We have this naming convention for the test: methodToTest_inputOfTest_expectedOutput
+
+Same problems found across the file
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/51#discussion_r1801014665" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+A null value may become vulnerable to exceptions, you may change it to a Category with an empty string instead
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/57#discussion_r1801054682" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Instead of throwing exception, you may handle this exception in the execution (as this is a man-made exception for parsing wrong date time string). Check ViewIncomeCommand to see how the exception is handled
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/62#discussion_r1801295592" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Instead of throwing an exception, you may catch it and return a message list with the error message. Will make sense as later on we may create custom exception classes, so the main can not handle them all
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/62#discussion_r1801297033" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Later on, may you try to change these messages to a static string? I think that makes sense if we want to change the message string later on
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/51#issuecomment-2413545709" expanded>
+<div slot="header">
+
+**12 :octicon-comment:** %%(other comment)%%
+</div>
+
+Next time you may wait for the checkstyle to pass before merging
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/51#issuecomment-2413551726" expanded>
+<div slot="header">
+
+**13 :octicon-comment:** %%(other comment)%%
+</div>
+
+You may try to check for the commit message conventions (no -ed)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/pull/56#issuecomment-2413580520" expanded>
+<div slot="header">
+
+**14 :octicon-comment:** %%(other comment)%%
+</div>
+
+Just update and push, no need to close and create a new one
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 9. THIR..ESAN `@TVageesan` (**10**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/25#discussion_r1791278912" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Should Parser be printing back the received command like this?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/25#discussion_r1791280314" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Could this be extracted to a variable such as 'name' straight away to make the following if conditions clearer?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/25#discussion_r1791282145" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Similarly, could this be abstracted to a intermediary variable, 'progIndexString' to make the if conditons easier to read at first glance?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/29#discussion_r1792091316" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Could this be more concisely written by making use of Day's toString() function to print it out?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/29#discussion_r1792091897" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This function should not be necessary if toString() is used as suggested.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/29#discussion_r1792093877" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Could this logic be simplified by using HashMap &lt;String, Day> to map dates to Day objects instead?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/23#discussion_r1798660581" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Instead of using a data wrapper, could these loaded classes be passed back up to BuffBuddy.java to reassign the programmeList/History classes? Refer to this for an example of what I mean:  https://github.com/TVageesan/ip/blob/872672e738c2a17d58b9d4f5b3f337021f1d3037/src/main/java/medea/Medea.java#L41
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/23#discussion_r1798661225" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This could be in a function i.e. createDirifNotExists
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/23#discussion_r1798661433" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+filePath and directoryPath could be stored as instance variables since they might be used for future functions. Maybe they could be derived once in the constructor and stored?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/50#discussion_r1799740790" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Put showHistory() function contents into toString(). The intention with writing toString() here with the "History" placeholder was to fill in with your history printing. Rationale for this is that toString() is a standardized way to say that the function represents the class as a string, making it easier to integrate.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/45#discussion_r1798735393" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+EditSubCommand is an abstract class for all the programme edit commands (create/remove day, create/remove/update exercise). Changed it from ExerciseCommand -&gt; EditSubCommand because now it also edits the days in the programme, not just the exercise.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 10. LIM ..AMIN `@yakultbottle` (**10**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/50#discussion_r1797729547" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Was this a typo?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/51#discussion_r1797730200" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job on adding JUnit tests!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/57#discussion_r1798210178" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like the usage of switch case in this method to keep branch logic neat
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/57#discussion_r1798210457" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good catch on the indenting of this method, I missed this last time
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/57#discussion_r1798210740" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that you abstracted out methods in execute such that it is easily understood and more readable
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/79#discussion_r1800511039" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job using assertions and loggers in code
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/79#discussion_r1800511681" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job maintaining the usage of ItemList although the implementation was changed
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/81#discussion_r1801147684" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice refactor to make this message more coherent
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/81#discussion_r1801148377" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job creating new Exceptions to handle errors
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/81#discussion_r1801149130" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good use of assert to guarantee the program functions as expected
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/3#issuecomment-2387710274" expanded>
+<div slot="header">
+
+**11 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 11. LIM ..KIAT `@limkongkiat` (**9**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/56#discussion_r1796401957" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Any reason for having so many line spaces here?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/56#discussion_r1796402397" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps adding Javadoc comments for the class would be good?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/56#discussion_r1796402631" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+LGTM
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/59#discussion_r1796419504" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps you can add a check to verify that the correct task was deleted (e.g. check the description of the remaining task) ?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/65#discussion_r1797134168" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps the line separator could be extracted out as a string literal?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/74#discussion_r1800531594" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+The boolean function here does not really follow boolean naming convention. Would it be better to directly create a new instance of `ExitCommand` in the `case "exit"` block and call a method `shouldContinueLoop` belonging to `ExitCommand`?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/74#discussion_r1800534024" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Would it be less awkward if the method was called `shouldContinueLoop()` , so that the statement here would be `return shouldContinueLoop()` (i.e. no need to use the ! to invert the output)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/75#discussion_r1800898399" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+There seems to be a missing close bracket here which is causing the program to be unable to build
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/75#discussion_r1800899224" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Could I ask why a newline was added here?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/39#issuecomment-2401524205" expanded>
+<div slot="header">
+
+**10 :octicon-comment:** %%(other comment)%%
+</div>
+
+Add method to view all Incomes logged in Financial list
+Add method to get number of entries in financial list
+Add method to get single Financial entry from Financial list
+Fixes issue #33 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/issues/32#issuecomment-2405655989" expanded>
+<div slot="header">
+
+**11 :octicon-comment:** %%(other comment)%%
+</div>
+
+Addressed together with #13 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/58#issuecomment-2406520804" expanded>
+<div slot="header">
+
+**12 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM overall, maybe it would be good to add Javadoc comments to the Ui class?
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 12. FONG..RYAN `@CT9ARyan` (**9**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/54#discussion_r1798538419" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps we can store contactNumber as a String??
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/54#discussion_r1798539255" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Remove the trailing spaces after "username" and "age".
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/54#discussion_r1798544441" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Constants should be in SCREAMING_SNAKE_CASE. (i.e. ADD_CUSTOMER_COMMAND)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/54#discussion_r1798549257" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Maybe you can follow the "make the happy path prominent" coding standard here?? (i.e. Use the guard clause "if( !isValidSequence(parameters) ), then throw the exception here in the if block.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/54#discussion_r1798554331" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Change "Duke" to "CLIRental"
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/64#discussion_r1802785350" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Remove the extra space character after 'transactionId'
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/64#discussion_r1802791471" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think it's better if the 'if' condition is inline with the 'if' keyword.
+
+Move this line (condition) up to the if statement.
+
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/69#discussion_r1803131026" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Maybe you can change to 'ADD_TRANSACTION_COMMAND' so that it is consistent with the remove transaction command below.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/69#discussion_r1803148064" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this 'main' method is not necessary here?? The main actions should be done in the Parser class.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 13. DONO.. JIE `@xenthm` (**9**<small><small>+7</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/14#discussion_r1788647360" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Add blank lines to separate methods according to coding standard. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/17#discussion_r1789521088" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like how you extracted the different constants for input options into its own class. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/17#discussion_r1789528084" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that we have custom exceptions for our app, but I do feel that we can go further to create even more sub-exceptions (e.g. `InvalidCommandException`) so we can be more expressive without defaulting to writing different error messages when creating a new `TantouException`. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/17#discussion_r1789528456" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Maybe you missed this, but try to keep the spacing in the project consistent!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/32#discussion_r1798396971" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job on catching this guideline violation! It's better to explicitly specify which methods we are importing from a package. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/32#discussion_r1798400433" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Should assertions perform the same checks as exceptions? My interpretation is that exceptions catch user errors and assertions catch developer errors in coding the app. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/32#discussion_r1798400686" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+See comment for `DeleteAuthorCommand.java`
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/42#discussion_r1804973606" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job writing clear and comprehensive JavaDoc!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/42#discussion_r1804975779" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Is there any other way we can make it clearer to the user that `b` is for deadline (as in "by"; as discussed offline)? 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789561628" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Sorry I don't understand. Are you talking about `authorList.get(i).getAuthorName()`?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789584600" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+I don't fully agree with you. `size()` does the same thing as the underlying method of the `ArrayList`. I think what we can do it have `AuthorList` extend `ArrayList&lt;Author>`, like how I did it in my iP: 
+![image](https://github.com/user-attachments/assets/e0656a3d-2fd2-4cf9-befc-a048e569a122)
+
+Then `size()` will just be an overridden method. 
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789757313" expanded>
+<div slot="header">
+
+**12 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Yeah I think we need to hold further discussions about what `Ui` is used for. For now I will KIV this in favour of pushing out a MVP. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789913343" expanded>
+<div slot="header">
+
+**13 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Will KIV for future refactors. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/issues/18#issuecomment-2396374910" expanded>
+<div slot="header">
+
+**14 :octicon-comment:** %%(other comment)%%
+</div>
+
+The branch `branch-test-rebase` was created before changes from #16 are merged into the upstream, and by extension my fork's master branch. Test commits will be made on it. Once the changes from #16 are merged, I will try the proposed rebase-based workflow above and see if there are any issues. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/issues/18#issuecomment-2397458370" expanded>
+<div slot="header">
+
+**15 :octicon-comment:** %%(other comment)%%
+</div>
+
+Ok from my research from [here](https://stackoverflow.com/a/16330782) and [here](https://git-scm.com/book/en/v2/Git-Branching-Rebasing#The-Perils-of-Rebasing), I have concluded that there shouldn't be any issues with this workflow, as long as: 
+1. the branch isn't pushed onto your own fork before you rebase, or
+2. the branch is pushed onto your own fork, but no one has cloned it to do work on it. 
+
+For `2.`, a `git push --force-with-lease` is required to override the base of the fork on the fork origin. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#issuecomment-2408641575" expanded>
+<div slot="header">
+
+**16 :octicon-comment:** %%(other comment)%%
+</div>
+
+Just a heads-up on git format guidelines, the base form of the verb should be used in commit messages. 
+>e.g. Add tests, Remove obsolete code, Fix bugs
+
+I think it's fine for now, no need to go back to change, but keep this in mind for future commits just for this course!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 14. DAO ..HANH `@tkhahns` (**8**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/60#discussion_r1802285904" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Everyone, please add photos and links to GitHub to complete this Portfolio session
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/60#discussion_r1802301305" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Later we can add more attributes for the Car class, such as capacity and color
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/60#discussion_r1802303168" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This can later be modified corresponding to the additional attributes
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/60#discussion_r1802320857" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+It's a good idea to separate the Parser for each class. Keep up with it!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/60#discussion_r1802322004" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Following this method, I believe everything will be more organized as we will have a main Parser to call each separate class' parser
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/60#discussion_r1802325626" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Later you can add test cases for add-car also
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/74#discussion_r1803298128" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good addition, I think we all missed this at first
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/74#discussion_r1803299303" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Well done!!!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 15. ETHA.. XIA `@RCPilot1604` (**8**<small><small>+5</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/15#discussion_r1793325786" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Do we need a setter for this since it is unlikely a student will be able to change their matricNumber?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/26#discussion_r1800605880" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Could you use CommandResult FindStudentCommand :: execute() instead to reduce code repetition?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/26#discussion_r1800610914" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Does this assume that the grade boundaries are fixed for each course?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/37#discussion_r1803948255" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like how you set up an instance of Logger object rootLogger to specify clearly that this logging takes place in the root. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/38#discussion_r1803964349" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+As per our latest UML diagram, an "Assignment" (we should rename this Class to Grade) object does not have a reference to a Student object since the association between Student and Grade is via an Association object instead. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/38#discussion_r1803964904" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+What does this command do? 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/38#discussion_r1803965517" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+DeleteAssignmentCommand should have access to AssignmentList since it inherits Command
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/38#discussion_r1803966536" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+We may want to keep this enum class for use with Student class (calculating letter grade from overall score)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798410656" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Hi thanks for your review. That is indeed possible, although it would be risky to delete only using name as a key since there could be duplicate names in the StudentList. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798411264" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Hi, thanks for your review. That can certainly be done. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798411421" expanded>
+<div slot="header">
+
+**11 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Good point, however the checks in Ui are slightly different that this since scanner.hasNext() will still be true for an empty line ("\n") or empty spaces. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/15#issuecomment-2402014445" expanded>
+<div slot="header">
+
+**12 :octicon-comment:** %%(other comment)%%
+</div>
+
+Looks good, merging.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/38#issuecomment-2418235558" expanded>
+<div slot="header">
+
+**13 :octicon-comment:** %%(other comment)%%
+</div>
+
+@ThienDuc3112 you may need to resolve merge conflicts.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 16. JOE .. YOU `@louisjoety` (**8**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/18#discussion_r1789097068" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+LGTM!! 🚀 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/20#discussion_r1789545048" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Looks good 👍 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/26#discussion_r1793816476" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Correct format for JavaDoc comments.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/26#discussion_r1793816562" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good use of constants for magic strings.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/26#discussion_r1793816620" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good use of inheritance.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/30#discussion_r1795659068" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good decision to move some repeated members from child classes 👍 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/53#discussion_r1804052965" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good use of exception 👍 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/53#discussion_r1804053335" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good error handling here 🚀 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 17. LIU .. HAO `@AaronZZ10` (**8**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/54#discussion_r1802753473" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+String would be better, or at least Long
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/66#discussion_r1803066991" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+i think it might look more clear using the format of println(A+B+C+..)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/66#discussion_r1803069234" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+maybe "printCarList" as the name? so people don't get confused it as getCarList()
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/68#discussion_r1803125949" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+duplicate customer command, must remove one
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/68#discussion_r1803126631" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+duplicate case add car command, must remove one
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/68#discussion_r1803161976" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+it's better to combine line 25-38 together
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/71#discussion_r1803333325" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+maybe use Car 1, Car 2, and "Honda Civic", "Audi A4", etc as model, "ABC123","XYZ66" etc as license plate
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/71#discussion_r1803335978" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+"Ford F150" as model?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/61#issuecomment-2416165108" expanded>
+<div slot="header">
+
+**9 :octicon-comment:** %%(other comment)%%
+</div>
+
+create Transaction, TransactionList, TransactionParser classes, and complete RemoveTransaction&ListAllUsers features
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 18. SARA..XUAN `@sarahchow03` (**7**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/2#discussion_r1779444190" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This check is unclear. Perhaps add parentheses to ensure that the check is properly processed?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/2#discussion_r1779444512" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+According to the breadth-first approach recommended by the course, it may be a good idea to ensure that the author feature works first, before implementing more vigorous checks for it.
+However, I think we should still keep the check, just for later iterations.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/2#discussion_r1779445067" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Similar comment for Author.java. Not sure if this check is intentional or requires another set of parentheses.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/15#discussion_r1789071671" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job on writing tests!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/19#discussion_r1790412477" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good job extracting MangaList for a cleaner code style!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/19#discussion_r1790414559" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Tests cover use cases well! Good use of JUnit Tests!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/24#discussion_r1793764260" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+nit: A suggestion would be to adhere to the style of command. For instance, in getUserCommand_deleteManga_parsedCorrectly(), the term "test" is used, rather than actual names or titles.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#issuecomment-2408631885" expanded>
+<div slot="header">
+
+**8 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM! Remember to attach this PR to a milestone and the relevant issues. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/issues/20#issuecomment-2408660739" expanded>
+<div slot="header">
+
+**9 :octicon-comment:** %%(other comment)%%
+</div>
+
+Issue re-opened to amend the vigor of JUnit Tests.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 19. ANDE..HENG `@Holy-An` (**6**<small><small>+4</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1785724600" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Let's move this into the issues channel!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/32#discussion_r1788517511" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good catch of not modifying the original student list!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/32#discussion_r1788520900" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Very organised! Well done. Good using of sorting mechanisms. Based on our User Guide, it indeed does show that the student list returned is sorted based on ID. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/32#discussion_r1788522533" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice use of comparator! It might be possible for this to be simplified to 1 line, but this is fine still. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/32#discussion_r1788528362" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+A new copy of the list can be useful if we do implement a feature in the future that is able to revert any changes. However, if we would want to consistently run multiple allocation rounds, perhaps modifying the original list might be better for memory purposes
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/37#discussion_r1795703506" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice abstraction layer!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1797975211" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Thanks, I used a hashset to prevent duplicate error messages when validating the format of preference rankings
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798426377" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+oops, not sure why the order changed, fixed.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798426523" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+fixed.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/40#discussion_r1798662315" expanded>
+<div slot="header">
+
+**10 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Hi, I believe this is unnecessary, considering most of these are of one time use and still readable
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 20. CHIE.. JIA `@chewycj` (**6**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/36#discussion_r1797630369" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think this code works well! But perhaps we can also use the Exception class we have in our code to print the exception message? For example:
+```
+System.err.println(Exception.MissingCourseInformation());
+```
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/47#discussion_r1798971304" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like how you named your JUnit test cases!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/49#discussion_r1799540721" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that you extracted out the user interaction for the goodbye message into the UI class for better cohesion!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/51#discussion_r1803208176" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that you avoided the use of wildcard imports here, by listing out the methods we will be using from the package!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/59#discussion_r1805046844" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like how you logged the system outputs here!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/59#discussion_r1805049609" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like the assertion here to make sure that the code is parsing the right input, to avoid accessing a null value!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 21. JAI ..AHUL `@rahuljai-05` (**6**<small><small>+8</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/23#discussion_r1788518007" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Would it be better if we interchanged the names of the 'index' and 'id' variables here ? because the user will be referring to the id of the internship in their argument right ? And while deleting the internship, we'll refer to the actual index of the internship in the array which is (id - 1). Let me know if my understanding is correct because I just went through all the code you committed bro haha
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/26#discussion_r1788641344" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think the formatter should be passed in as an argument in these 2 lines as well right (so as to handle the default case where no -from and -to flags are provided by the user) ?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/31#discussion_r1789158998" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Looks good overall but wouldn't it be better if instead of setStatus(status) on line 50, we call the new updateStatus(status) function which you have implemented ? In this way, we can check for the invalid input cases also when setting the status. I will merge the changes now but I shall change this line in my next pull request if you give me the permission to do so, thanks !
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/31#discussion_r1789162058" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good change
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/31#discussion_r1789162357" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good work on the new test case class. Thanks !
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/34#discussion_r1791446252" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Thanks for this change, I think it will work well with my Parser class
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/5#issuecomment-2390386212" expanded>
+<div slot="header">
+
+**7 :octicon-comment:** %%(other comment)%%
+</div>
+
+Nice
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/32#issuecomment-2395472704" expanded>
+<div slot="header">
+
+**8 :octicon-comment:** %%(other comment)%%
+</div>
+
+Thank you for the pull request, approved !
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/33#issuecomment-2395940419" expanded>
+<div slot="header">
+
+**9 :octicon-comment:** %%(other comment)%%
+</div>
+
+Sorry, my auto formatter seems to have done some unnecessary changes to the format of the code in the Internship class file. Do change it back to how it was previously if you want or let me know if you want me to change it, thanks ! I couldn't find any functional issues with the code though, seems to work fine for most ideal cases. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/34#issuecomment-2399214188" expanded>
+<div slot="header">
+
+**10 :octicon-comment:** %%(other comment)%%
+</div>
+
+Looks good overall. Thanks for the additions Toby, I shall modify your existing main loop logic with my new Parser class !
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/35#issuecomment-2400112836" expanded>
+<div slot="header">
+
+**11 :octicon-comment:** %%(other comment)%%
+</div>
+
+Please do take a look at the commit message in the commit hash a4acd2f where I have went over all the changes made in this pr. Have not focused too much on the coding style in this pr and have not addressed the suggestions given in the previous pr yet. Will make the necessary refactoring changes and add the JavaDoc comments in the next pr. Do take note of the Example Test Run file under the test folder to get an idea of the expected input and output. Thanks !
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/57#issuecomment-2416717663" expanded>
+<div slot="header">
+
+**12 :octicon-comment:** %%(other comment)%%
+</div>
+
+Looks good !
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/issues/48#issuecomment-2417106971" expanded>
+<div slot="header">
+
+**13 :octicon-comment:** %%(other comment)%%
+</div>
+
+Closing this issue as the pull requests to fix this issue have already been merged. Thanks for the hard work !
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/issues/46#issuecomment-2417129303" expanded>
+<div slot="header">
+
+**14 :octicon-comment:** %%(other comment)%%
+</div>
+
+Closed by PR #47
+
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 22. STYP..RICH `@kennethSty` (**6**<small><small>+14</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/42#discussion_r1789433113" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Great changes! But could you please use a more descriptive name than ..Msg?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/45#discussion_r1792685184" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+To keep the ChatParser class clean, consider creating a Healthgoal class to encapsulate all related methods such as `parseHealthGoal`. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/45#discussion_r1792687430" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+This class is a bit confusing to me. Why the changes to make everything static?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/45#discussion_r1792687550" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Great catch! Thanks!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/45#discussion_r1792688659" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Great! 
+Could you please create a new Issue for further developing this? Specifically, to make the execution of askForHealthGoal optional, such that the user is not asked to insert a HealthGoal every time he opens the app. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/45#discussion_r1794747633" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Please do not make private members public. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/4#issuecomment-2380319291" expanded>
+<div slot="header">
+
+**7 :octicon-comment:** %%(other comment)%%
+</div>
+
+Done in the last pull request. 
+Outstanding: Reading and writing the tracked calories to a file. (opened a new issue for this)
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/3#issuecomment-2380322850" expanded>
+<div slot="header">
+
+**8 :octicon-comment:** %%(other comment)%%
+</div>
+
+- Adding calories and meals is done. 
+Note: Instead of using a second calorie class and duplicating code from the meal class, I made the name of a meal `Optional&lt;String>`. The `MealEntry` class inherits from the `Meal` class. This way we do not need two distinct objects for tracking meal entries with and without a name. 
+- To track calorie history meals are added into a `mealEntries` instance of `MealEntriesList`. To implement the deletion you can simply add the command to the `MealEntriesList` class or preferably in its superclass `MealList`. Then implement the logic when the deletion is conducted in the `ChatParser` class.
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/44#issuecomment-2401320639" expanded>
+<div slot="header">
+
+**9 :octicon-comment:** %%(other comment)%%
+</div>
+
+Unit test created for ChatParser in PR #43. Test cases not successful yet because waiting for changes to be merged from PR #42 . 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/36#issuecomment-2410348803" expanded>
+<div slot="header">
+
+**10 :octicon-comment:** %%(other comment)%%
+</div>
+
+Fixed in PR #48
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/19#issuecomment-2410351324" expanded>
+<div slot="header">
+
+**11 :octicon-comment:** %%(other comment)%%
+</div>
+
+Done in History Tracker 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/14#issuecomment-2410358654" expanded>
+<div slot="header">
+
+**12 :octicon-comment:** %%(other comment)%%
+</div>
+
+Fixed in PR #26
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/20#issuecomment-2410364261" expanded>
+<div slot="header">
+
+**13 :octicon-comment:** %%(other comment)%%
+</div>
+
+Beyond MVP Scope for now
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/61#issuecomment-2418644347" expanded>
+<div slot="header">
+
+**14 :octicon-comment:** %%(other comment)%%
+</div>
+
+Had to be done as part of #69 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/56#issuecomment-2418645334" expanded>
+<div slot="header">
+
+**15 :octicon-comment:** %%(other comment)%%
+</div>
+
+Done in #69 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/13#issuecomment-2418646544" expanded>
+<div slot="header">
+
+**16 :octicon-comment:** %%(other comment)%%
+</div>
+
+Done as part of #69 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/51#issuecomment-2418648680" expanded>
+<div slot="header">
+
+**17 :octicon-comment:** %%(other comment)%%
+</div>
+
+- Done partly in #69 
+- Bug in ideal calorie consumption resolved. 
+- Added demo input for user to understand type of required input 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/22#issuecomment-2418650053" expanded>
+<div slot="header">
+
+**18 :octicon-comment:** %%(other comment)%%
+</div>
+
+Implemented in #69 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/57#issuecomment-2418651213" expanded>
+<div slot="header">
+
+**19 :octicon-comment:** %%(other comment)%%
+</div>
+
+Done in #69 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/45#issuecomment-2419262721" expanded>
+<div slot="header">
+
+**20 :octicon-comment:** %%(other comment)%%
+</div>
+
+Modifications for increased cohesiveness and reduced coupling made in #69 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 23. LIM ..KIAN `@yeekian` (**5**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798293680" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that you used protected visibility for the StudentList
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798303635" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+It is good that you incorporated name into the DeleteStudentCommand. Have you considered allowing the deletion using only either name or matricNumber? 
+
+You can try overloading the constructor with signatures containing only one of both.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798304338" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Same comment as DeleteStudentCommand, perhaps a constructor using only one argument and setting the other as default
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798305655" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like the toString() command is written in a clear and concise manner that is easy to understand.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/27#discussion_r1800792645" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that you incorporated the matricNumber in the print string as it allows us to display more information
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 24. JIN ..IHAN `@jinzihan2002` (**5**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798332306" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that collectUserInput() checks for whether the user entered a blank line.
+Perhaps moving forwards it could silently consume the blank line without considering it an exception?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798334422" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps the Console class methods could be placed under Ui, as both deal with user interface?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/25#discussion_r1798339110" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps we could assert that `line` should not be empty, since collectUserInput should check for empty line already?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/27#discussion_r1800796937" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that DeleteCourse checks for the existence of the course to be deleted, so the exception can be handled.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-4/tp/pull/33#discussion_r1801427813" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I like that the getIdentifier method was abstracted out from execute().
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 25. TSOU..YUAN `@tsoudibi` (**5**<small><small>+10</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/53#discussion_r1795903098" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Test failed with message:
+
+> Error: eckstyle] [ERROR] /home/runner/work/tp/tp/src/test/java/seedu/duke/command/SeeAllIncomesCommandTest.java:11:47: Using the '.\*' form of import should be avoided - org.junit.jupiter.api.Assertions.*. [AvoidStarImport]
+
+maybe should try below instead of `import static org.junit.jupiter.api.Assertions.*;`
+```
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Assertions.assertTrue;
+```
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/61#discussion_r1796432117" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+maybe we should do a help command instead of this.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/61#discussion_r1796435492" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Imo, we should just execute the command instead if it exists.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/61#discussion_r1796448261" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Shouldn't use `.*` in code, import individually instead.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/61#discussion_r1796451762" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Open a new issue #62 for this
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/56#discussion_r1796414705" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Yeah of course. Working on it.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/74#discussion_r1800569316" expanded>
+<div slot="header">
+
+**7 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+oh sorry i missed that
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/74#discussion_r1800577828" expanded>
+<div slot="header">
+
+**8 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Yeah, it would be better to implement it this way. Thanks!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/74#discussion_r1800581667" expanded>
+<div slot="header">
+
+**9 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+True, modified in next commit
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/issues/30#issuecomment-2401598160" expanded>
+<div slot="header">
+
+**10 :octicon-comment:** %%(other comment)%%
+</div>
+
+Combine this issue with #20 into #46 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/issues/20#issuecomment-2401601322" expanded>
+<div slot="header">
+
+**11 :octicon-comment:** %%(other comment)%%
+</div>
+
+Combine this issue with #30 into #46 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/48#issuecomment-2405743015" expanded>
+<div slot="header">
+
+**12 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/49#issuecomment-2405750224" expanded>
+<div slot="header">
+
+**13 :octicon-comment:** %%(other comment)%%
+</div>
+
+It's a good idea to have a specific msg when no entry is logged. Should also do on #44 and #18 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/56#issuecomment-2405869728" expanded>
+<div slot="header">
+
+**14 :octicon-comment:** %%(other comment)%%
+</div>
+
+Add JUnit tests for SeeAllExpensesCommand
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/61#issuecomment-2406592503" expanded>
+<div slot="header">
+
+**15 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 26. ONG ..JOHN `@kaboomzxc` (**4**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/pull/10#discussion_r1782066318" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+could we store phoneNumber as a string?
+
+because the user inputs phone number as a string,
+
+if we store phoneNumber initially as int, we will need to convert user input from string to int.
+
+but would it be better to just store phoneNumber as string, so we just compare strings. ?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/pull/10#discussion_r1782067295" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+should we include constructor for phone number too ?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/pull/10#discussion_r1782067364" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+should we include constructor for phone number too ?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/pull/10#discussion_r1782071851" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+also, storing as phoneNumber as string, will be much better for "find"
+tq
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/pull/62#issuecomment-2400228392" expanded>
+<div slot="header">
+
+**5 :octicon-comment:** %%(other comment)%%
+</div>
+
+also updated the "help" to show correct format
+e.g. "find p/91234567" ,
+no longer "find PHONE_NUMBER 91234567"
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/issues/46#issuecomment-2400663065" expanded>
+<div slot="header">
+
+**6 :octicon-comment:** %%(other comment)%%
+</div>
+
+i've added JUnit tests for [find] command
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 27. TAN .. HUI `@TPH777` (**4**<small><small>+8</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/25#discussion_r1788028912" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Maybe its better to have a guard clause to prevent arrowhead. 
+If it exists call `getPasswordHashFromStorage` and return. Then, use try-catch afterwards and initialise passwordHash with `Login().createNewUser`. directly.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/51#discussion_r1803085332" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Maybe its good to have a better test name, instead of `noArgs`, maybe like `missingEditDescription`
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/51#discussion_r1803088636" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Maybe its good to have a better test name, maybe like `invalidEditAmount`
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/51#discussion_r1803090325" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Maybe its good to have a better test name by explaining what the argument is, maybe like `invalidEditType`
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/31#discussion_r1797618110" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+I find this to be not as readable, as f is still used later on to initialise Scanner
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/6#issuecomment-2375111084" expanded>
+<div slot="header">
+
+**6 :octicon-comment:** %%(other comment)%%
+</div>
+
+closes #2 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/9#issuecomment-2379040511" expanded>
+<div slot="header">
+
+**7 :octicon-comment:** %%(other comment)%%
+</div>
+
+closes #2
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/10#issuecomment-2381098339" expanded>
+<div slot="header">
+
+**8 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm closes #3 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/11#issuecomment-2383619268" expanded>
+<div slot="header">
+
+**9 :octicon-comment:** %%(other comment)%%
+</div>
+
+closes #1 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/17#issuecomment-2387735702" expanded>
+<div slot="header">
+
+**10 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/24#issuecomment-2392673860" expanded>
+<div slot="header">
+
+**11 :octicon-comment:** %%(other comment)%%
+</div>
+
+closes #24 
+closes #23
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/25#issuecomment-2396015405" expanded>
+<div slot="header">
+
+**12 :octicon-comment:** %%(other comment)%%
+</div>
+
+closes #25  
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 28. PAUL..G LE `@paulktham` (**3**<small><small>+6</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/26#discussion_r1786091406" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Clean code
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/26#discussion_r1786101932" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+do you think we should set allocatedUniversity to be a university type? In the future will it be more convenient for our code?
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/26#discussion_r1786102278" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+this is good, makes the code more flexible
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784631720" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+good catch Hao Zhe!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1784634575" expanded>
+<div slot="header">
+
+**5 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Good catch again! 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#discussion_r1785590685" expanded>
+<div slot="header">
+
+**6 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+https://www.geeksforgeeks.org/bigdecimal-class-java/
+
+im not sure whether we should bring in a new package when floats or doubles would probably suffice for two decimal points which we will likely not do any arithmetic calculations to alter the values, likely only comparison is necessary which to and there are ways to compare accurately as well like
+
+```
+
+public class FloatComparison ``{``
+    public static boolean areEqual(float num1, float num2, float epsilon) ``{``
+        return Math.abs(num1 - num2) < epsilon;
+    ``}``
+
+    public static void main(String[] args) ``{``
+        float num1 = 1.2345f;
+        float num2 = 1.2346f;
+
+        // Use a small epsilon, e.g., 0.01f for two decimal places
+        float epsilon = 0.01f;
+
+        if (areEqual(num1, num2, epsilon)) ``{``
+            System.out.println("The numbers are equal up to two decimal places.");
+        ``}`` else ``{``
+            System.out.println("The numbers are not equal.");
+        ``}``
+    ``}``
+``}``
+```
+
+
+What does the team think? >.< 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/pull/20#issuecomment-2388560786" expanded>
+<div slot="header">
+
+**7 :octicon-comment:** %%(other comment)%%
+</div>
+
+Updated the branch and fix the camelCase formatting issue!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/24#issuecomment-2391248329" expanded>
+<div slot="header">
+
+**8 :octicon-comment:** %%(other comment)%%
+</div>
+
+I think Xing Zhuang can have the final say as well
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/24#issuecomment-2391670053" expanded>
+<div slot="header">
+
+**9 :octicon-comment:** %%(other comment)%%
+</div>
+
+> I was also thinking of overloading the comparison operators in the `Student` class, so that we can directly compare `Student` objects.
+
+thats a good idea as well
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 29. CHIT..UMAR `@cnivedit` (**3**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/56#discussion_r1798130482" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good choice to include local data storage path in .gitignore to prevent unnecessary files from being committed to the repository
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/56#discussion_r1798131869" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Clear and concise exception messages
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/56#discussion_r1798135743" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good catch on the typo
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 30. WONG..HENG `@yentheng0110` (**2**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/pull/93#discussion_r1799254242" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good use of catch statement to catch an exception processing the delete command and print out the specific error message
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/pull/93#discussion_r1799255040" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Good use of assertion to assert nric != null when user wants to delete a specific patient record
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/issues/59#issuecomment-2411641300" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+I think assertions are unnecessary for the list command since it involves straightforward data retrieval and display, not input validation or state changes. There is no risk of invalid or unexpected data at runtime. Even if the patient records list is empty, it is a normal scenario, not an error, and can be handled with a message like "No patients found." 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 31. NIGE.. WEI `@NigelYeoTW` (**2**<small><small>+12</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/31#discussion_r1794572008" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+```suggestion
+            boolean isFileCreated = new File(PASSWORD_FILE_PATH).createNewFile();
+```
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/31#discussion_r1794582578" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Maybe could make the IncomeList, SpendingList and LoginStorage methods package private instead so only the storage package classes can access them
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/25#discussion_r1788531147" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Editted and pushed 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/7#issuecomment-2376029652" expanded>
+<div slot="header">
+
+**4 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/9#issuecomment-2377108247" expanded>
+<div slot="header">
+
+**5 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/11#issuecomment-2382334747" expanded>
+<div slot="header">
+
+**6 :octicon-comment:** %%(other comment)%%
+</div>
+
+package names should be lower cased
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/11#issuecomment-2382449658" expanded>
+<div slot="header">
+
+**7 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm👍 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/26#issuecomment-2393461661" expanded>
+<div slot="header">
+
+**8 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/26#issuecomment-2393463520" expanded>
+<div slot="header">
+
+**9 :octicon-comment:** %%(other comment)%%
+</div>
+
+closes #5 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/27#issuecomment-2395785012" expanded>
+<div slot="header">
+
+**10 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/31#issuecomment-2409822950" expanded>
+<div slot="header">
+
+**11 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/32#issuecomment-2413534648" expanded>
+<div slot="header">
+
+**12 :octicon-comment:** %%(other comment)%%
+</div>
+
+can remove the commented out imports or unneeded comments from code else lgtm
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/32#issuecomment-2414393162" expanded>
+<div slot="header">
+
+**13 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/41#issuecomment-2414404158" expanded>
+<div slot="header">
+
+**14 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 32. KHOR.. KIT `@KHsienKit` (**2**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/pull/40#discussion_r1799360708" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Change the return type to an ArrayList instead of a fixed array
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/pull/40#discussion_r1799361442" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+An ArrayList can be iterated through instead of a fixed array
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 33. KODE..JITH `@KSanjith` (**2**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-1/tp/pull/55#discussion_r1799101794" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Valid asserts
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-1/tp/pull/55#discussion_r1799102674" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Useful test, LGTM
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 34. ATUL..ALLI `@Atulteja` (**2**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/31#discussion_r1793479681" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+will have to throw errors later on to make sure its not out of bounds for this and delete exercise
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/23#discussion_r1795498412" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Everything looks good to me!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 35. CHAN..ENCE `@Hackin7` (**2**<small><small>+7</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/pull/40#discussion_r1799301192" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+err shouldn't make them static
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/pull/40#discussion_r1799302629" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+yeah also try not to make static methods for expenseList since its supposed to be an object
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/pull/9#issuecomment-2380412762" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+Found out some gradle issues, will be settling them first
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/issues/21#issuecomment-2396150481" expanded>
+<div slot="header">
+
+**4 :octicon-comment:** %%(other comment)%%
+</div>
+
+Handling errors such as this are also included in this issue
+
+- Duc
+
+By the way, my remark on the edit command:
+
+If the user writes something like 
+`edit 1 /price 2.50`
+
+then description and category would be null. The expense's description and category fields may also be overwritten to null (?)
+
+Also we are not checking if index is valid
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/issues/21#issuecomment-2406445948" expanded>
+<div slot="header">
+
+**5 :octicon-comment:** %%(other comment)%%
+</div>
+
+General concept (from the discussions)
+1. We implement JUnit tests using existing error handling practices
+2. We make new PRs implementing error handling using WheresMyMoneyException and modify JUnit tests to support those
+
+Will push this back to v2.0 to give us more time to refactor the code and get it stable in v1.0
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/pull/18#issuecomment-2406499772" expanded>
+<div slot="header">
+
+**6 :octicon-comment:** %%(other comment)%%
+</div>
+
+For future PRs which add commands, a guide on what needs to be done should be made
+The help command would need to be updated accordingly
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/pull/39#issuecomment-2410766968" expanded>
+<div slot="header">
+
+**7 :octicon-comment:** %%(other comment)%%
+</div>
+
+Please make it pass CI and checkstyle
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/issues/25#issuecomment-2413321347" expanded>
+<div slot="header">
+
+**8 :octicon-comment:** %%(other comment)%%
+</div>
+
+Shifted to v2.0 milestone to give more time to refactor and rework parser
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-3/tp/issues/28#issuecomment-2413325098" expanded>
+<div slot="header">
+
+**9 :octicon-comment:** %%(other comment)%%
+</div>
+
+Will push back to v2.0 as this issue might take a while to work on
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 36. NIRA..INGH `@nirala-ts` (**2**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/24#discussion_r1791503509" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps dayList would be a better variable name to avoid typo between day and days variable.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-3/tp/pull/24#discussion_r1791506588" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+LGTM!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 37. FU Y..XUAN `@MatchaRRR` (**2**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/60#discussion_r1799322949" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+I think the comment could be reduced because it looks too long now.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/60#discussion_r1799352195" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps you could consider directly using count++ in the String.format(), there's no need to do increment outside it.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/45#discussion_r1793800988" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Thanks for advice. 
+A new commission is done.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/56#issuecomment-2409050474" expanded>
+<div slot="header">
+
+**4 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/65#issuecomment-2420019005" expanded>
+<div slot="header">
+
+**5 :octicon-comment:** %%(other comment)%%
+</div>
+
+I think this is a good modification of the structure. The code is more readable than before. Good job!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 38. VERI.. LIM `@kestryix` (**1**<small><small>+0</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/74#discussion_r1800455326" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Generally okay, maybe can remove commented out code
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 39. REX .. KAI `@rexkoh425` (**1**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/68#discussion_r1803141455" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Indentation should be 4 lesser.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/issues/38#issuecomment-2411539608" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+Implemented
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 40. GOH .. HAW `@wahkia` (**1**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/40#discussion_r1797678494" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Nice addition!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-2/tp/pull/1#issuecomment-2395440782" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+Looks great!
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 41. LEON..SPER `@ryryry-3302` (**1**<small><small>+4</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/52#discussion_r1800370992" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Thanks for filling this up
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/25#issuecomment-2387624753" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+closed using different pr
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/30#issuecomment-2387674860" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/23#issuecomment-2393967974" expanded>
+<div slot="header">
+
+**4 :octicon-comment:** %%(other comment)%%
+</div>
+
+Sounds like a good idea to me. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/13#issuecomment-2393971950" expanded>
+<div slot="header">
+
+**5 :octicon-comment:** %%(other comment)%%
+</div>
+
+I think naming this issue as user initialisation would be more apt as user registration sounds like creating login processes to me
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 42. TRAN..HONG `@Sukkaito` (**1**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-1/tp/pull/54#discussion_r1798472868" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+We could potentially add a `RecipeNotFoundException` here
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-1/tp/issues/52#issuecomment-2409027535" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+Resolved #53 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-1/tp/issues/35#issuecomment-2409027663" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+Resolved #53 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 43. SOUK..SEPH `@iaso1774` (**1**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/38#discussion_r1800679085" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)
+</div>
+
+Perhaps a bit more clarity in the message could be useful here, like "Detected that the manga exists, but manga does not actually exist."
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1795710951" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Ok, I'll change it.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1795715133" expanded>
+<div slot="header">
+
+**3 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+It would probably be safer to remove it.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-3/tp/pull/29#discussion_r1795716023" expanded>
+<div slot="header">
+
+**4 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+I changed it back.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 44. AJAY..NKER `@AjayShanker-geek` (**0**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-1/tp/issues/37#issuecomment-2415725087" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Implemented on #25 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-1/tp/issues/28#issuecomment-2419994138" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+Add on #42 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-1/tp/issues/16#issuecomment-2420021530" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+Completed #24 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 45. TAN ..NETH `@SemiColonKen` (**0**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T11-3/tp/pull/69#discussion_r1803207493" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Yup. This is not necessary. 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 46. NAVE..RESH `@naveen42x` (**0**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-4/tp/issues/23#issuecomment-2419591198" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Implement help command
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-4/tp/issues/23#issuecomment-2419596060" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+As a new user I can type the help command at anytime to view instructions on how to use JavaNinja
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 47. WONG..HONG `@wongwh2002` (**0**<small><small>+5</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/11#issuecomment-2382362015" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Spent 1hr trying to solve the CI issue
+Fix: run 
+dos2unix EXPECTED.TXT input.txt 
+before committing
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/issues/4#issuecomment-2387780880" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+see total income and spending when listing
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/issues/28#issuecomment-2401521165" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+list class
+
+list spending
+list income
+list all
+include total income and/or spending when print
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/36#issuecomment-2414004887" expanded>
+<div slot="header">
+
+**4 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/38#issuecomment-2414136507" expanded>
+<div slot="header">
+
+**5 :octicon-comment:** %%(other comment)%%
+</div>
+
+add wrong user password test, else lgtm
+
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 48. CHE ..YANG `@3CCLY` (**0**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-1/tp/pull/51#issuecomment-2408849218" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-1/tp/pull/56#issuecomment-2413092379" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+LTGM, nice implementation
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 49. GAO ..NING `@Gao327` (**0**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-4/tp/issues/7#issuecomment-2413068847" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Category is an attribute of the expense class, set during add expense method
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 50. CHEN..YONG `@ctzeyong` (**0**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/47#issuecomment-2404574852" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 51. ANG ..LFER `@telferang` (**0**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-1/tp/pull/43#issuecomment-2412636910" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+For #44 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 52. JUVE..G YI `@Littleme1032` (**0**<small><small>+4</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/59#discussion_r1796420946" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Sounds good, ill add it in.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/52#issuecomment-2406506548" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/issues/13#issuecomment-2406528770" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+Merged to delete both an entry (income and expense) together
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-3/tp/pull/72#issuecomment-2413029372" expanded>
+<div slot="header">
+
+**4 :octicon-comment:** %%(other comment)%%
+</div>
+
+LGTM, tested both test case of empty and non empty list 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 53. ANG ..N EN `@Chinorea` (**0**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-1/tp/issues/26#issuecomment-2400417715" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Implement Display Expense with filter feature
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 54. DHAS..HNAA `@DarkDragoon2002` (**0**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/pull/42#discussion_r1791099778" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Hi, changed name of method to addMealWithoutCLIMsg to make it clearer. It is to add the meals to the various lists without spamming the user with messages
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-1/tp/issues/3#issuecomment-2357554079" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+- [x] Implement Add Calories
+- [x] Implement Delete Calories
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 55. JADE..CHEN `@jadenlimjc` (**0**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/pull/23#discussion_r1788520696" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+You are right rahul. Have amended accordingly! Thanks for spotting the mistake!
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/issues/15#issuecomment-2393689328" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+As a...user who will be using this application consistently
+I can...return to the application with all my information saved
+So that I can...save time updating the tracker constantly
+
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-1/tp/issues/11#issuecomment-2394935848" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+As a...student applying to many different internships
+I can...add internships that I an interested in applying to or have applied to to my internship tracker
+So that I can...manage the various internships I have
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 56. LIAN..ENDA `@glenda-1506` (**0**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-4/tp/pull/11#issuecomment-2415365995" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+This function enforces a single category per expense. If a new category is assigned to an expense, it will overwrite any previously assigned category.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 57. TNG ..N XI `@wx-03` (**0**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/40#issuecomment-2414391050" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 58. GLEN..CHEW `@glenn-chew` (**0**<small><small>+1</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/37#discussion_r1791286928" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+Sure, I have updated the code.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 59. LIAN..SIEN `@KuanHsienn` (**0**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796554370" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+This is done so because without this line and directly accessing commandParts[1] will result in errors for list, menu and exit functions. 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-3/tp/pull/47#discussion_r1796596392" expanded>
+<div slot="header">
+
+**2 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+This was just a temporary function as the list function was not done at this point in time. It will be removed in this merge.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 60. NG C..IANG `@CheeKiangg` (**0**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-2/tp/pull/65#issuecomment-2412792385" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+fixes #62 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-2/tp/pull/74#issuecomment-2413767140" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+fixes #72 , #74 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W13-2/tp/pull/81#issuecomment-2416917088" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+fixes #81 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 61. VENK..INDA `@mayfairmi6` (**0**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-4/tp/pull/6#issuecomment-2395458066" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Pushing my changes 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-4/tp/pull/19#issuecomment-2415779168" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+Will be checking later on this..compiling locally on macOS
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 62. CHAN..ILIP `@philip1304` (**0**<small><small>+4</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/64#discussion_r1799515486" expanded>
+<div slot="header">
+
+**1 :octicon-git-pull-request::octicon-comment:** %%(commented on own PR)%%
+</div>
+
+I have some ideas for that actually, I'll make some changes in my next PR.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/55#issuecomment-2408904397" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+Not passing checks anymore due to Storage class update. Will be updating.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/67#issuecomment-2411356160" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+I saw that they were checking for asserts & loggers in the tp dashboard. Let me know if I went overkill with them.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-4/tp/pull/97#issuecomment-2417460011" expanded>
+<div slot="header">
+
+**4 :octicon-comment:** %%(other comment)%%
+</div>
+
+I somehow messed up my files with this PR. Going to close it and fix my side.
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 63. ZHAN..CORA `@coraleaf0602` (**0**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/issues/87#issuecomment-2408843603" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Not possible to use assertions for exit command as test environment would be shut down once [exit] is called
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/issues/86#issuecomment-2408844217" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+Using assert would be unconventional because assertions are generally used for conditions that can programmatically be checked to see if something went wrong, not for printing information to the console.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-T10-2/tp/issues/88#issuecomment-2408847206" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+Writing an exception for help command would be unnecessary as the help method just prints output onto the console
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 64. XION..UANG `@ThisisXXZ` (**0**<small><small>+3</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/5#issuecomment-2378422516" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Hello
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/24#issuecomment-2391316836" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+I think float is enough for storing GPA. I will sort GPAs in a descending order, so as long as the data type is comparable, the algorithm will work.
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W12-2/tp/issues/33#issuecomment-2395408930" expanded>
+<div slot="header">
+
+**3 :octicon-comment:** %%(other comment)%%
+</div>
+
+Will it work if we ask our users to run JAR file using command `java -Dfile.encoding=UTF-8 -jar yourapp.jar`?
+
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 65. CHUA..LEON `@ChuaCleon` (**0**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-1/tp/pull/32#issuecomment-2404141025" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+Fixes #31 
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W10-1/tp/pull/38#issuecomment-2410085673" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+Fix #38 
+</panel>
+
+</panel>
+
+
+<panel type="info"  collapsed>
+<div slot="header">
+
+### 66. HARW..DREW `@rharwo` (**0**<small><small>+2</small></small> comments)
+</div>
+
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/33#issuecomment-2413912321" expanded>
+<div slot="header">
+
+**1 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+<panel  popup-url="https://github.com/AY2425S1-CS2113-W14-1/tp/pull/52#issuecomment-2419866633" expanded>
+<div slot="header">
+
+**2 :octicon-comment:** %%(other comment)%%
+</div>
+
+lgtm
+</panel>
+
+</panel>
