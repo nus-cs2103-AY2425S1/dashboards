@@ -1,0 +1,20 @@
+2024-11-03T16:54:35.981Z - info: Website generation started at 12:54:35 AM
+2024-11-03T16:54:36.073Z - info: Building assets...
+2024-11-03T16:54:36.169Z - info: Assets built
+2024-11-03T16:54:36.169Z - info: Generating pages...
+2024-11-03T16:54:36.643Z - info: Pages built
+2024-11-03T16:54:36.712Z - info: Site data built
+2024-11-03T16:54:36.712Z - info: Website generation complete! Total build time: 0.784s
+2024-11-03T16:54:36.712Z - info: Build success!
+2024-11-03T16:54:38.884Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/contents/_markbind/logs/markbind-2024-10-31.log' date=Mon Nov 04 2024 00:54:38 GMT+0800 (Singapore Standard Time), pid=77985, uid=502, gid=20, cwd=/Users/damithch/Repos/nus-cs2103/dashboards-base/contents, execPath=/opt/homebrew/Cellar/node@20/20.18.0_1/bin/node, version=v20.18.0, argv=[/opt/homebrew/Cellar/node@20/20.18.0_1/bin/node, /opt/homebrew/bin/markbind, deploy], rss=173375488, heapTotal=102957056, heapUsed=67983104, external=2387925, arrayBuffers=123256, loadavg=[8.7822265625, 4.56201171875, 4.21630859375], uptime=196817
+Error: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/contents/_markbind/logs/markbind-2024-10-31.log'
+2024-11-03T17:16:58.405Z - info: Website generation started at 1:16:58 AM
+2024-11-03T17:16:58.497Z - info: Building assets...
+2024-11-03T17:16:58.551Z - info: Assets built
+2024-11-03T17:16:58.551Z - info: Generating pages...
+2024-11-03T17:17:56.120Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/dashboards/contents/cs2103/url' found in file '/Users/damithch/Repos/nus-cs2103/dashboards-base/contents/cs2103/forum-activities-panels-fragment.md'
+2024-11-03T17:17:56.121Z - info: Pages built
+2024-11-03T17:17:56.191Z - info: Site data built
+2024-11-03T17:17:56.191Z - info: Website generation complete! Total build time: 57.798s
+2024-11-03T17:17:56.191Z - info: Build success!
