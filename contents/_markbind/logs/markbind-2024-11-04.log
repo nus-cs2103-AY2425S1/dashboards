@@ -18,3 +18,27 @@ Error: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103
 2024-11-03T17:17:56.191Z - info: Site data built
 2024-11-03T17:17:56.191Z - info: Website generation complete! Total build time: 57.798s
 2024-11-03T17:17:56.191Z - info: Build success!
+2024-11-03T17:18:06.650Z - info: The website has been deployed at: https://nus-cs2103-ay2425s1.github.io/dashboards
+2024-11-03T17:19:46.794Z - info: Website generation started at 1:19:46 AM
+2024-11-03T17:19:46.886Z - info: Building assets...
+2024-11-03T17:19:47.039Z - info: Assets built
+2024-11-03T17:19:47.039Z - info: Generating pages...
+2024-11-03T17:19:49.283Z - error: Failed to copy asset markbind-plugin-anchors.css for plugin markbind-plugin-anchors
+Error: ENOTDIR: not a directory, mkdir '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/plugins'
+2024-11-03T17:19:49.283Z - error: Failed to copy asset markbind-plugin-anchors.css for plugin markbind-plugin-anchors
+Error: ENOTDIR: not a directory, mkdir '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/plugins'
+2024-11-03T17:19:49.283Z - error: Failed to copy asset markbind-plugin-anchors.css for plugin markbind-plugin-anchors
+Error: ENOTDIR: not a directory, mkdir '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/plugins'
+2024-11-03T17:19:49.283Z - error: Failed to copy asset markbind-plugin-tree.css for plugin markbind-plugin-tree
+Error: ENOTDIR: not a directory, mkdir '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/plugins'
+2024-11-03T17:19:49.284Z - error: Failed to copy asset markbind-plugin-tree.css for plugin markbind-plugin-tree
+Error: ENOTDIR: not a directory, mkdir '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/plugins'
+2024-11-03T17:19:49.284Z - error: Failed to copy asset markbind-plugin-tree.css for plugin markbind-plugin-tree
+Error: ENOTDIR: not a directory, mkdir '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/plugins'
+2024-11-03T17:19:49.284Z - error: Failed to copy asset markbind-plugin-anchors.css for plugin markbind-plugin-anchors
+Error: ENOTDIR: not a directory, mkdir '/Users/damithch/Repos/nus-cs2103/dashboards-base/_site/plugins'
+2024-11-03T17:19:51.538Z - info: Pages built
+2024-11-03T17:19:51.603Z - info: Site data built
+2024-11-03T17:19:51.603Z - info: Website generation complete! Total build time: 4.839s
+2024-11-03T17:19:51.603Z - info: Build success!
+2024-11-03T17:19:56.264Z - info: The website has been deployed at: https://nus-cs2113-ay2425s1.github.io/dashboards
