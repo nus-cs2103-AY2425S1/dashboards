@@ -53,3 +53,32 @@ Error: ENOTDIR: not a directory, mkdir '/Users/damithch/Repos/nus-cs2103/dashboa
 2024-11-04T03:36:31.193Z - info: The website has been deployed at: https://nus-tic2002-ay2425s1.github.io/dashboards
 2024-11-04T03:58:30.729Z - info: Website generation started at 11:58:30 AM
 2024-11-04T03:58:30.823Z - info: Building assets...
+2024-11-04T03:58:30.902Z - info: Assets built
+2024-11-04T03:58:30.902Z - info: Generating pages...
+2024-11-04T03:59:25.910Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/dashboards/contents/cs2103/url' found in file '/Users/damithch/Repos/nus-cs2103/dashboards-base/contents/cs2103/forum-activities-panels-fragment.md'
+2024-11-04T03:59:25.911Z - info: Pages built
+2024-11-04T03:59:25.973Z - info: Site data built
+2024-11-04T03:59:25.974Z - info: Website generation complete! Total build time: 55.312s
+2024-11-04T03:59:25.974Z - info: Build success!
+2024-11-04T03:59:36.462Z - info: The website has been deployed at: https://nus-cs2103-ay2425s1.github.io/dashboards
+2024-11-04T04:01:18.586Z - info: Website generation started at 12:01:18 PM
+2024-11-04T04:01:18.680Z - info: Building assets...
+2024-11-04T04:01:18.839Z - info: Assets built
+2024-11-04T04:01:18.839Z - info: Generating pages...
+2024-11-04T04:01:23.256Z - info: Pages built
+2024-11-04T04:01:23.319Z - info: Site data built
+2024-11-04T04:01:23.319Z - info: Website generation complete! Total build time: 4.802s
+2024-11-04T04:01:23.319Z - info: Build success!
+2024-11-04T04:01:29.149Z - info: The website has been deployed at: https://nus-cs2113-ay2425s1.github.io/dashboards
+2024-11-04T14:30:54.456Z - info: Website generation started at 10:30:54 PM
+2024-11-04T14:30:54.623Z - info: Building assets...
+2024-11-04T14:30:54.718Z - info: Assets built
+2024-11-04T14:30:54.719Z - info: Generating pages...
+2024-11-04T14:30:55.092Z - info: Pages built
+2024-11-04T14:30:55.155Z - info: Site data built
+2024-11-04T14:30:55.155Z - info: Website generation complete! Total build time: 0.775s
+2024-11-04T14:30:55.155Z - info: Build success!
+2024-11-04T14:30:59.313Z - info: The website has been deployed at: https://nus-tic2002-ay2425s1.github.io/dashboards
+2024-11-04T14:55:20.318Z - info: Website generation started at 10:55:20 PM
+2024-11-04T14:55:20.411Z - info: Building assets...
