@@ -9,3 +9,21 @@
 2024-11-14T03:06:25.259Z - info: The website has been deployed at: https://nus-tic2002-ay2425s1.github.io/dashboards
 2024-11-14T03:21:26.619Z - info: Website generation started at 11:21:26 AM
 2024-11-14T03:21:26.836Z - info: Building assets...
+2024-11-14T03:21:26.922Z - info: Assets built
+2024-11-14T03:21:26.922Z - info: Generating pages...
+2024-11-14T03:22:32.253Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/dashboards/contents/cs2103/url' found in file '/Users/damithch/Repos/nus-cs2103/dashboards-base/contents/cs2103/forum-activities-panels-fragment.md'
+2024-11-14T03:22:32.254Z - info: Pages built
+2024-11-14T03:22:32.329Z - info: Site data built
+2024-11-14T03:22:32.329Z - info: Website generation complete! Total build time: 65.771s
+2024-11-14T03:22:32.329Z - info: Build success!
+2024-11-14T03:22:45.934Z - info: The website has been deployed at: https://nus-cs2103-ay2425s1.github.io/dashboards
+2024-11-14T03:25:27.420Z - info: Website generation started at 11:25:27 AM
+2024-11-14T03:25:27.489Z - info: Building assets...
+2024-11-14T03:25:27.643Z - info: Assets built
+2024-11-14T03:25:27.643Z - info: Generating pages...
+2024-11-14T03:25:32.340Z - info: Pages built
+2024-11-14T03:25:32.404Z - info: Site data built
+2024-11-14T03:25:32.404Z - info: Website generation complete! Total build time: 5.028s
+2024-11-14T03:25:32.404Z - info: Build success!
+2024-11-14T03:25:38.654Z - info: The website has been deployed at: https://nus-cs2113-ay2425s1.github.io/dashboards
